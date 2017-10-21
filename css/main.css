@@ -93,7 +93,7 @@ img {
     color: #ffffff;
     padding: 1rem;
     text-decoration: none;
-    transition: padding 0.25s ease-in, font-size 0.25s ease-in;
+    transition: padding 0.25s ease-in, font-size 0.25s ease-in; /* Transform would have no effect on button size unless you target its container. This was cleaner and there's only a tiny shift in surrounding elements. */
 }
 
 .button:hover {
