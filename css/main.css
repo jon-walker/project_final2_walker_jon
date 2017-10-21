@@ -76,6 +76,7 @@ h1 {
 
 h1 img {
     width: 5rem;
+    margin-right: 1rem;
 }
 
 /* IMAGES DEFAULT SETTINGS */
@@ -140,6 +141,30 @@ img {
 
 .red {
     background-color: #cf1920;
+}
+
+/* ------------------- LOGO ANIMATIONS -------------------------- */
+.logo-spin {
+    animation: spin 25s ease-in-out 1s 3;
+}
+
+@keyframes spin {
+
+    0% {
+        transform: rotate(0);
+    }
+
+    10% {
+        transform: rotate(720deg);
+    }
+
+    15% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(0);
+    }
 }
 
 /* -------------------MEDIA QUERY 750 PX + ------------------------- */
