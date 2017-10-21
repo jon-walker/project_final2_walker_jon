@@ -83,10 +83,24 @@ img {
 }
 
 /* BUTTON SETTINGS */
+.button-container {
+    margin-top: 2rem;
+    text-align: right;
+}
+
 .button {
     background-color: #cf1920;
     color: #ffffff;
-    width: 100%;
+    padding: 1rem;
+    text-decoration: none;
+    transition: padding 0.25s ease-in, font-size 0.25s ease-in;
+}
+
+.button:hover {
+    padding: 1.1rem;
+    font-size: 1.1rem;
+    box-shadow: 0 3px 5px rgba(102, 102, 102, 0.4);
+    transition: padding 0.25s ease-in, font-size 0.25s ease-in;
 }
 
 /* COLOR SWATCHES */
