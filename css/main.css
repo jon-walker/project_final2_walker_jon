@@ -60,7 +60,7 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; /* Positioning forces the h1 to ignore default margins and span entire viewport width. Used this method since I planned on using positioning for larger screens anyways. */
     display: flex;
     align-items: center;
     margin-top: 0;
@@ -125,4 +125,13 @@ img {
 
 .red {
     background-color: #cf1920;
+}
+
+/* -------------------MEDIA QUERY 750 PX + ------------------------- */
+@media (min-width: 800px) {
+
+    h1 {
+        right: initial;
+        border-bottom: none;
+    }
 }
