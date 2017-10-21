@@ -156,7 +156,7 @@ img {
     }
 }
 
-/* -------------------MEDIA QUERY 750 PX + ------------------------- */
+/* -------------------MEDIA QUERY 1045 PX + ------------------------- */
 @media (min-width: 1045px) {
 
     main {
@@ -170,5 +170,13 @@ img {
         position: absolute;
         top: 4rem;
         right: 1rem;
+    }
+}
+
+/* -------------------MEDIA QUERY 1250 PX + ------------------------- */
+@media (min-width: 1250px) {
+
+    main {
+        width: 60%;
     }
 }
