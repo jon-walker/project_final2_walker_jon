@@ -73,6 +73,11 @@ h1 img {
     width: 5rem;
 }
 
+/* IMAGES DEFAULT SETTINGS */
+img {
+    width: 100%;
+}
+
 /* COLOR SWATCHES */
 .colors-list,
 .fonts-list {
