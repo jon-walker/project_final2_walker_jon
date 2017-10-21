@@ -4,6 +4,11 @@ body {
     border: 0;
     box-sizing: border-box;
     font-family: 'Roboto', 'Noto Sans', sans-serif;
+    background-image: url(../img/spin-bkg.jpg);
+    background-position: top right;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 h1 {
@@ -41,6 +46,7 @@ main,
 aside,
 header {
     padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 /* HEADER SETTINGS */
