@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -37,11 +37,34 @@ section + section {
 }
 
 /* STANDARD PADDING RULES FOR SECTIONING ELEMENTS */
-
 main,
 aside,
 header {
     padding: 2rem;
+}
+
+/* HEADER SETTINGS */
+header {
+    background-color: #cf1920;
+    position: relative;
+
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    width: auto;
+    box-shadow: 0 3px 5px rgba(102, 102, 102, 0.4);
+    padding: 1rem 2rem 1rem 1rem; /* Extra padding on right balances negative space in the logo icon file. */
+}
+
+h1 img {
+    width: 5rem;
 }
 
 /* COLOR SWATCHES */
