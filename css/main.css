@@ -24,22 +24,37 @@ h3,
 p,
 li {
     font-size: 1rem;
+    line-height: 1.5rem;
 }
 
+/* STANDARD SPACING RULES */
+* + * {
+    margin-top: 1rem;
+}
+
+section + section {
+    margin-top: 4rem;
+}
+
+/* COLOR SWATCHES */
 .colors-list,
 .fonts-list {
     list-style-type: none;
+    padding-left: 0; /* Aligns list contents flush left w/ other content */
 }
 
 .swatch {
-    width: 60%;
+    width: 40%;
     height: 3rem;
-    box-shadow: 0 0 5px rgba(102, 102, 102, 0.4);
+    box-shadow: 0 3px 5px rgba(102, 102, 102, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.white {
+    border: solid 1px rgba(202, 202, 202, 0.2);
+}
 .black {
     background-color: #1a0a0b;
     color: #ffffff;
