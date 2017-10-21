@@ -36,6 +36,14 @@ section + section {
     margin-top: 4rem;
 }
 
+/* STANDARD PADDING RULES FOR SECTIONING ELEMENTS */
+
+main,
+aside,
+header {
+    padding: 2rem;
+}
+
 /* COLOR SWATCHES */
 .colors-list,
 .fonts-list {
@@ -55,6 +63,7 @@ section + section {
 .white {
     border: solid 1px rgba(202, 202, 202, 0.2);
 }
+
 .black {
     background-color: #1a0a0b;
     color: #ffffff;
