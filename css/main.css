@@ -36,7 +36,7 @@ section + section {
     margin-top: 4rem;
 }
 
-/* STANDARD PADDING RULES FOR SECTIONING ELEMENTS */
+/* STANDARD RULES FOR SECTIONING ELEMENTS */
 main,
 aside,
 header {
@@ -75,8 +75,8 @@ h1 img {
 }
 
 .swatch {
-    width: 40%;
-    height: 3rem;
+    width: 100%;
+    height: 4rem;
     box-shadow: 0 3px 5px rgba(102, 102, 102, 0.4);
     display: flex;
     align-items: center;
