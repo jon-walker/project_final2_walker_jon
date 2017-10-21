@@ -148,4 +148,9 @@ img {
         right: initial;
         border-bottom: none;
     }
+
+    main {
+        width: 80%;
+        margin: 1rem auto;
+    }
 }
