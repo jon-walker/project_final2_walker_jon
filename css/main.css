@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Noto Sans', sans-serif;
+}
+
+h1 {
+    font-size: 2.3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2,
+h3 {
+    font-family: 'Noto Sans';
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3,
+p,
+li {
+    font-size: 1rem;
+}
