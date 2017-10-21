@@ -25,3 +25,34 @@ p,
 li {
     font-size: 1rem;
 }
+
+.colors-list,
+.fonts-list {
+    list-style-type: none;
+}
+
+.swatch {
+    width: 60%;
+    height: 3rem;
+    box-shadow: 0 0 5px rgba(102, 102, 102, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black {
+    background-color: #1a0a0b;
+    color: #ffffff;
+}
+
+.blue {
+    background-color: #059cae;
+}
+
+.green {
+    background-color: #7fe907;
+}
+
+.red {
+    background-color: #cf1920;
+}
